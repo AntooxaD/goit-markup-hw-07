@@ -1,0 +1,24 @@
+.logo {
+  display: flex;
+  align-items: center;
+  color: var(--first-text-color);
+  font-size: 26px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 93px;
+}
+.part-logo {
+  color: var(--highlight-color);
+}
+.logo-footer {
+  display: inline-block;
+  color: var(--second-text-color);
+  font-size: 26px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
