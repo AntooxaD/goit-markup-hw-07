@@ -1,15 +1,15 @@
-.desk {
+.desk__item {
   list-style-type: none;
   display: flex;
   padding-left: 0;
 }
-.desk-list:not(:last-child) {
+.desk__list:not(:last-child) {
   margin-right: 30px;
 }
-.desk-list {
+.desk__list {
   position: relative;
 }
-.desk-text {
+.desk__text {
   position: absolute;
   background-color: var(--desk-aboutTeam-color);
   color: var(--second-text-color);

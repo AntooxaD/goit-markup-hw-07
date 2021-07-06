@@ -1,10 +1,8 @@
-.button {
+.hero__button {
   font-family: Roboto, sans-serif;
   cursor: pointer;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 1.85;
-  letter-spacing: 0.06em;
+  @include font(16px, 1.85, 0.06em);
   background-color: var(--highlight-color);
   color: var(--second-text-color);
   padding: 10px 32px;
@@ -20,9 +18,7 @@
   width: 200px;
   height: 50px;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 1.85;
-  letter-spacing: 0.06em;
+  @include font(16px, 1.85, 0.06em);
   margin-left: 12px;
   background-color: var(--highlight-color);
   color: var(--second-text-color);
@@ -37,9 +33,7 @@
 .send {
   display: block;
   cursor: pointer;
-  font-size: 16px;
-  line-height: 1.85;
-  letter-spacing: 0.06em;
+  @include font(16px, 1.85, 0.06em);
   background-color: var(--highlight-color);
   color: var(--second-text-color);
   padding: 10px 55px;
@@ -94,7 +88,6 @@
   font-family: Roboto, sans-serif;
   cursor: pointer;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.62;
   border-radius: 4px;
   background-color: var(--button-color);

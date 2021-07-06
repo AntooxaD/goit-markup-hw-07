@@ -1,4 +1,4 @@
-.logo {
+.main-nav__logo {
   display: flex;
   align-items: center;
   color: var(--first-text-color);
@@ -9,10 +9,11 @@
   text-decoration: none;
   margin-right: 93px;
 }
-.part-logo {
+.main-nav__part-logo,
+.footer__part-logo {
   color: var(--highlight-color);
 }
-.logo-footer {
+.footer__logo {
   display: inline-block;
   color: var(--second-text-color);
   font-size: 26px;

@@ -1,6 +1,23 @@
 body {
   font-family: Roboto, sans-serif;
   color: var(--first-text-color);
+  font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+}
+.conteiner {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+Footer {
+  background-color: var(--box-color);
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.conteiner__footer {
+  display: flex;
+  justify-content: flex-start;
 }

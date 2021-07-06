@@ -1,4 +1,4 @@
-.hero-title {
+.hero__title {
   color: var(--second-text-color);
   width: 696px;
   font-size: 44px;
@@ -15,26 +15,30 @@
   text-align: center;
   margin-bottom: 50px;
 }
-.about-title {
+.desk__title,
+.team__title,
+.customers__title {
   @extend %title;
 }
-.team-title {
-  @extend %title;
+.features__title {
+  font-weight: bold;
+  line-height: 1.1;
 }
-.customers-title {
-  @extend %title;
+.features__text {
+  line-height: 1.6;
+  color: var(--adress-color);
+  margin-top: 10px;
 }
-.address-text {
+.footer__text--address {
   color: var(--second-text-color);
   font-style: normal;
   margin-top: 20px;
   margin-bottom: 0;
   line-height: 1.7;
 }
-.footer-title {
+.footer__title {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;

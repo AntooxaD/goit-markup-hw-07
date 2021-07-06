@@ -1,4 +1,4 @@
-.form-title {
+.form__text {
   text-align: center;
   font-weight: bold;
   font-size: 20px;
@@ -9,17 +9,17 @@
   font-size: 14px;
 }
 
-.form-label {
+.form__label {
   position: relative;
   width: 100%;
   margin-top: 4px;
 }
-.label-list {
+.form__list {
   display: block;
   margin-top: 4px;
 }
 
-.label-icon {
+.form__icon {
   width: 100%;
   height: 40px;
   border: none;
@@ -30,19 +30,19 @@
   outline: none;
 }
 
-.label-pic {
+.form__pic {
   position: absolute;
   left: 12px;
   transform: translateY(50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-label :hover,
-.form-label :focus-within {
+.form__label :hover,
+.form__label :focus-within {
   border-color: var(--highlight-color);
   fill: var(--highlight-color);
 }
-.form-label {
+.form__label {
   display: block;
   margin-top: 10px;
   font-size: 12px;
